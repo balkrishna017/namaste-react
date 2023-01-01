@@ -25,5 +25,3 @@ const container = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // passing a react element to root
 root.render(container);
-heading.innerHTML = 'Hello';
-console.log('heading: ', heading);
