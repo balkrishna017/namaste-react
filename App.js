@@ -17,6 +17,7 @@ ENABLE HTTPS N DEV
 MANAGE PORT NUMBER
 CONSISTENT HASHING ALGO TO CACHE
 ZERO CONFIG
+TREE SHAKING- remove unwanted
 
 PARCEL USE TRANSITIVE DEPENDENCY TO PERFORM ALL THE ABOVE
 OPERATION
@@ -26,6 +27,7 @@ const heading = React.createElement(
   'h1',
   {
     id: 'title',
+    key: 'h1',
   },
   'Namaste Everyone from React'
 );
@@ -34,6 +36,7 @@ const heading2 = React.createElement(
   'h2',
   {
     id: 'title',
+    key: 'h2',
   },
   'Hello world'
 );
